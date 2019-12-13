@@ -1,7 +1,7 @@
 # PyramidNet-Keras
 Keras implementation of PyramidNet，from paper "Deep Pyramidal Residual Networks", CVPR 2017 .  
 Arxiv: https://arxiv.org/abs/1610.02915.
-###base code are from [site]https://github.com/kazu41/ResNet and check the error.
+### base codes are from https://github.com/kazu41/ResNet and check the error.
 
 ## 一、修改参考代码错误的部分
 1）参考代码中使用的是（a）original pre-activation ResNets block,修改成论文中使用的（d）block
