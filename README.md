@@ -3,7 +3,7 @@ Keras implementation of PyramidNet，from paper "Deep Pyramidal Residual Network
 Arxiv: https://arxiv.org/abs/1610.02915.
 ###base code are from [site]https://github.com/kazu41/ResNet and check the error.
 
-##一、修改参考代码错误的部分
+## 一、修改参考代码错误的部分
 1）参考代码中使用的是（a）original pre-activation ResNets block,修改成论文中使用的（d）block
 
 
@@ -11,7 +11,7 @@ Arxiv: https://arxiv.org/abs/1610.02915.
 
 
 
-##二、使用原论文中的实验参数进行训练，包括：
+## 二、使用原论文中的实验参数进行训练，包括：
 1）设置SGD优化器：
 Our PyramidNets are trained using backpropagation [15] by Stochastic Gradient Descent (SGD) with Nesterov momentum for 300 epochs on CIFAR-10 and CIFAR-100 datasets. 
 2）设置学习率衰减控制
@@ -24,4 +24,4 @@ horizontal flflipping，translation  by 4 pixels are adopted in our experiments,
 common practice [18].
 
 
-##三、在cifar10上进行训练，获得keras的权重
+## 三、在cifar10上进行训练，获得keras的权重
